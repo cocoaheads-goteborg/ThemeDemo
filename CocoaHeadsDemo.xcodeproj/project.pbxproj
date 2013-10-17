@@ -135,10 +135,6 @@
 				5DD0D924180E7498000E15A2 /* AppDelegate.m */,
 				5DD0D95A180F082E000E15A2 /* ChangeThemeViewController.h */,
 				5DD0D95B180F082E000E15A2 /* ChangeThemeViewController.m */,
-				5DD0D961180FBD12000E15A2 /* ThemedTableViewController.h */,
-				5DD0D962180FBD12000E15A2 /* ThemedTableViewController.m */,
-				5DD0D95E180FBCB0000E15A2 /* ThemedCell.h */,
-				5DD0D95F180FBCB0000E15A2 /* ThemedCell.m */,
 				5DD0D926180E7498000E15A2 /* Main_iPhone.storyboard */,
 				5DD0D929180E7498000E15A2 /* Main_iPad.storyboard */,
 				5DD0D92F180E7498000E15A2 /* Images.xcassets */,
@@ -192,6 +188,10 @@
 		5DD0D95D180FBC7C000E15A2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				5DD0D961180FBD12000E15A2 /* ThemedTableViewController.h */,
+				5DD0D962180FBD12000E15A2 /* ThemedTableViewController.m */,
+				5DD0D95E180FBCB0000E15A2 /* ThemedCell.h */,
+				5DD0D95F180FBCB0000E15A2 /* ThemedCell.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
