@@ -16,13 +16,17 @@
     if (self) {
         self.mainFont = [UIFont fontWithName:@"GillSans" size:17.0];
         self.mainTextColor = [UIColor whiteColor];
-        self.detailTextColor = [UIColor grayColor];
         self.globalBackgroundColor = [UIColor blackColor];
         self.tableViewCellBackgroundColor = [UIColor darkGrayColor];
         self.navigationBarTintColor = [UIColor blackColor];
-        self.globalTintColor = [UIColor greenColor];
+        self.globalTintColor = [UIColor redColor];
     }
     return self;
+}
+
+- (UIImage *)imageNamed:(NSString *)imageName
+{
+    return [UIImage imageNamed:[NSString stringWithFormat:@"%@-dark", imageName]];
 }
 
 @end

@@ -105,7 +105,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JDW-qn-D07">
-                                <rect key="frame" x="74" y="518" width="173" height="30"/>
+                                <rect key="frame" x="74" y="510" width="173" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <state key="normal" title="Go back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -119,6 +119,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Dogs" id="SfC-W5-rp9"/>
                     <connections>
+                        <outlet property="backButton" destination="JDW-qn-D07" id="fGg-Qf-VN1"/>
                         <outlet property="descriptionLabel" destination="atE-fr-iMT" id="i4M-aa-sYU"/>
                     </connections>
                 </viewController>
@@ -146,7 +147,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qsl-b3-zlB">
-                                <rect key="frame" x="74" y="518" width="173" height="30"/>
+                                <rect key="frame" x="74" y="510" width="173" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <state key="normal" title="Go back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -160,6 +161,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Cats" id="W30-jY-jnJ"/>
                     <connections>
+                        <outlet property="backButton" destination="Qsl-b3-zlB" id="m7K-XN-vHm"/>
                         <outlet property="descriptionLabel" destination="1vB-GB-l6w" id="6xf-Vd-9Qx"/>
                     </connections>
                 </viewController>

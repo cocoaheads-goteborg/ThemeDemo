@@ -11,5 +11,6 @@
 @interface InfoViewController : UIViewController
 
 @property (nonatomic, weak) IBOutlet UILabel *descriptionLabel;
+@property (nonatomic, weak) IBOutlet UIButton *backButton;
 
 @end

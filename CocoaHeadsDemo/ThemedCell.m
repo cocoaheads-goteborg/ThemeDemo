@@ -17,9 +17,6 @@
     
     self.textLabel.font = [[Theme currentTheme].mainFont fontWithSize:self.textLabel.font.pointSize];
     self.textLabel.textColor = [Theme currentTheme].mainTextColor;
-    
-    self.detailTextLabel.font = [[Theme currentTheme].mainFont fontWithSize:self.detailTextLabel.font.pointSize];
-    self.detailTextLabel.textColor = [Theme currentTheme].detailTextColor;
     self.backgroundColor = [Theme currentTheme].tableViewCellBackgroundColor;
 }
 

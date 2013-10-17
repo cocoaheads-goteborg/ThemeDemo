@@ -50,11 +50,11 @@ static Theme *CurrentTheme;
  */
 - (void)applyAppearance
 {
+    [[UIView appearance] setTintColor:self.globalTintColor];
     [[UINavigationBar appearance] setBarTintColor:self.navigationBarTintColor];
     [[UINavigationBar appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName: self.mainTextColor,
                                                             NSFontAttributeName: self.mainFont }];
     [[UIBarButtonItem appearance] setTitleTextAttributes:@{ NSFontAttributeName: self.mainFont } forState:UIControlStateNormal];
-    [[UIView appearance] setTintColor:self.globalTintColor];
 }
 
 - (UIImage *)imageNamed:(NSString *)imageName
