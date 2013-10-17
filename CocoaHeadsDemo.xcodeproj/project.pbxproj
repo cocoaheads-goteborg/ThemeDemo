@@ -15,13 +15,18 @@
 		5DD0D925180E7498000E15A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D924180E7498000E15A2 /* AppDelegate.m */; };
 		5DD0D928180E7498000E15A2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD0D926180E7498000E15A2 /* Main_iPhone.storyboard */; };
 		5DD0D92B180E7498000E15A2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD0D929180E7498000E15A2 /* Main_iPad.storyboard */; };
-		5DD0D92E180E7498000E15A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D92D180E7498000E15A2 /* ViewController.m */; };
 		5DD0D930180E7498000E15A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD0D92F180E7498000E15A2 /* Images.xcassets */; };
 		5DD0D937180E7498000E15A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD0D936180E7498000E15A2 /* XCTest.framework */; };
 		5DD0D938180E7498000E15A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD0D914180E7498000E15A2 /* Foundation.framework */; };
 		5DD0D939180E7498000E15A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD0D918180E7498000E15A2 /* UIKit.framework */; };
 		5DD0D941180E7498000E15A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DD0D93F180E7498000E15A2 /* InfoPlist.strings */; };
 		5DD0D943180E7498000E15A2 /* CocoaHeadsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D942180E7498000E15A2 /* CocoaHeadsDemoTests.m */; };
+		5DD0D951180EFC71000E15A2 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D950180EFC71000E15A2 /* Theme.m */; };
+		5DD0D956180EFEBE000E15A2 /* DefaultTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D955180EFEBE000E15A2 /* DefaultTheme.m */; };
+		5DD0D959180F059E000E15A2 /* DarkTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D958180F059E000E15A2 /* DarkTheme.m */; };
+		5DD0D95C180F082E000E15A2 /* ChangeThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D95B180F082E000E15A2 /* ChangeThemeViewController.m */; };
+		5DD0D960180FBCB0000E15A2 /* ThemedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D95F180FBCB0000E15A2 /* ThemedCell.m */; };
+		5DD0D963180FBD12000E15A2 /* ThemedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D962180FBD12000E15A2 /* ThemedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +52,24 @@
 		5DD0D924180E7498000E15A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5DD0D927180E7498000E15A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		5DD0D92A180E7498000E15A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		5DD0D92C180E7498000E15A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5DD0D92D180E7498000E15A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5DD0D92F180E7498000E15A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5DD0D935180E7498000E15A2 /* CocoaHeadsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaHeadsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD0D936180E7498000E15A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5DD0D93E180E7498000E15A2 /* CocoaHeadsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaHeadsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5DD0D940180E7498000E15A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DD0D942180E7498000E15A2 /* CocoaHeadsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaHeadsDemoTests.m; sourceTree = "<group>"; };
+		5DD0D94F180EFC71000E15A2 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		5DD0D950180EFC71000E15A2 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		5DD0D954180EFEBE000E15A2 /* DefaultTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultTheme.h; sourceTree = "<group>"; };
+		5DD0D955180EFEBE000E15A2 /* DefaultTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultTheme.m; sourceTree = "<group>"; };
+		5DD0D957180F059E000E15A2 /* DarkTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DarkTheme.h; sourceTree = "<group>"; };
+		5DD0D958180F059E000E15A2 /* DarkTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DarkTheme.m; sourceTree = "<group>"; };
+		5DD0D95A180F082E000E15A2 /* ChangeThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeThemeViewController.h; sourceTree = "<group>"; };
+		5DD0D95B180F082E000E15A2 /* ChangeThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeThemeViewController.m; sourceTree = "<group>"; };
+		5DD0D95E180FBCB0000E15A2 /* ThemedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemedCell.h; sourceTree = "<group>"; };
+		5DD0D95F180FBCB0000E15A2 /* ThemedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemedCell.m; sourceTree = "<group>"; };
+		5DD0D961180FBD12000E15A2 /* ThemedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemedTableViewController.h; sourceTree = "<group>"; };
+		5DD0D962180FBD12000E15A2 /* ThemedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +129,18 @@
 		5DD0D91A180E7498000E15A2 /* CocoaHeadsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5DD0D95D180FBC7C000E15A2 /* Base */,
+				5DD0D94D180EFC14000E15A2 /* Themes */,
 				5DD0D923180E7498000E15A2 /* AppDelegate.h */,
 				5DD0D924180E7498000E15A2 /* AppDelegate.m */,
+				5DD0D95A180F082E000E15A2 /* ChangeThemeViewController.h */,
+				5DD0D95B180F082E000E15A2 /* ChangeThemeViewController.m */,
+				5DD0D961180FBD12000E15A2 /* ThemedTableViewController.h */,
+				5DD0D962180FBD12000E15A2 /* ThemedTableViewController.m */,
+				5DD0D95E180FBCB0000E15A2 /* ThemedCell.h */,
+				5DD0D95F180FBCB0000E15A2 /* ThemedCell.m */,
 				5DD0D926180E7498000E15A2 /* Main_iPhone.storyboard */,
 				5DD0D929180E7498000E15A2 /* Main_iPad.storyboard */,
-				5DD0D92C180E7498000E15A2 /* ViewController.h */,
-				5DD0D92D180E7498000E15A2 /* ViewController.m */,
 				5DD0D92F180E7498000E15A2 /* Images.xcassets */,
 				5DD0D91B180E7498000E15A2 /* Supporting Files */,
 			);
@@ -153,6 +174,26 @@
 				5DD0D93F180E7498000E15A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DD0D94D180EFC14000E15A2 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				5DD0D94F180EFC71000E15A2 /* Theme.h */,
+				5DD0D950180EFC71000E15A2 /* Theme.m */,
+				5DD0D954180EFEBE000E15A2 /* DefaultTheme.h */,
+				5DD0D955180EFEBE000E15A2 /* DefaultTheme.m */,
+				5DD0D957180F059E000E15A2 /* DarkTheme.h */,
+				5DD0D958180F059E000E15A2 /* DarkTheme.m */,
+			);
+			name = Themes;
+			sourceTree = "<group>";
+		};
+		5DD0D95D180FBC7C000E15A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD0D92E180E7498000E15A2 /* ViewController.m in Sources */,
+				5DD0D951180EFC71000E15A2 /* Theme.m in Sources */,
+				5DD0D956180EFEBE000E15A2 /* DefaultTheme.m in Sources */,
+				5DD0D95C180F082E000E15A2 /* ChangeThemeViewController.m in Sources */,
+				5DD0D959180F059E000E15A2 /* DarkTheme.m in Sources */,
+				5DD0D963180FBD12000E15A2 /* ThemedTableViewController.m in Sources */,
 				5DD0D925180E7498000E15A2 /* AppDelegate.m in Sources */,
 				5DD0D921180E7498000E15A2 /* main.m in Sources */,
+				5DD0D960180FBCB0000E15A2 /* ThemedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

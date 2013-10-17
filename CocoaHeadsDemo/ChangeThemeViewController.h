@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ChangeThemeViewController.h
 //  CocoaHeadsDemo
 //
 //  Created by Joel Ekström on 2013-10-16.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ThemedTableViewController.h"
 
-@interface ViewController : UIViewController
+@interface ChangeThemeViewController : ThemedTableViewController
 
 @end
