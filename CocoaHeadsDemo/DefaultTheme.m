@@ -14,9 +14,10 @@
 {
     self = [super init];
     if (self) {
+        self.mainFont = [UIFont systemFontOfSize:17.0];
         self.mainTextColor = [UIColor blackColor];
         self.detailTextColor = [UIColor grayColor];
-        self.tableViewBackgroundColor = [UIColor groupTableViewBackgroundColor];
+        self.globalBackgroundColor = [UIColor groupTableViewBackgroundColor];
         self.tableViewCellBackgroundColor = [UIColor whiteColor];
         self.navigationBarTintColor = [UIColor whiteColor];
     }

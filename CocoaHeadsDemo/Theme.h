@@ -16,9 +16,11 @@
 - (void)applyAppearance;
 - (UIImage *)imageNamed:(NSString *)imageName;
 
+@property (nonatomic, strong) UIFont *mainFont;
+
 @property (nonatomic, strong) UIColor *mainTextColor;
 @property (nonatomic, strong) UIColor *detailTextColor;
-@property (nonatomic, strong) UIColor *tableViewBackgroundColor;
+@property (nonatomic, strong) UIColor *globalBackgroundColor;
 @property (nonatomic, strong) UIColor *tableViewCellBackgroundColor;
 @property (nonatomic, strong) UIColor *navigationBarTintColor;
 @property (nonatomic, strong) UIColor *globalTintColor;

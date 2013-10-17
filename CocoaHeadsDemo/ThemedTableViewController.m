@@ -15,7 +15,7 @@
 {
     [super viewDidLoad];
     self.tableView.backgroundView = [UIView new];
-    self.tableView.backgroundView.backgroundColor = [Theme currentTheme].tableViewBackgroundColor;
+    self.tableView.backgroundView.backgroundColor = [Theme currentTheme].globalBackgroundColor;
 }
 
 @end
