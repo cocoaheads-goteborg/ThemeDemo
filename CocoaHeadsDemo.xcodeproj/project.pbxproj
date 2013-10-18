@@ -27,6 +27,7 @@
 		5DD0D960180FBCB0000E15A2 /* ThemedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D95F180FBCB0000E15A2 /* ThemedCell.m */; };
 		5DD0D963180FBD12000E15A2 /* ThemedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D962180FBD12000E15A2 /* ThemedTableViewController.m */; };
 		5DD0D966180FEEBA000E15A2 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D965180FEEBA000E15A2 /* InfoViewController.m */; };
+		5DD0D96918105BDA000E15A2 /* RedTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD0D96818105BDA000E15A2 /* RedTheme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		5DD0D962180FBD12000E15A2 /* ThemedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemedTableViewController.m; sourceTree = "<group>"; };
 		5DD0D964180FEEBA000E15A2 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		5DD0D965180FEEBA000E15A2 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		5DD0D96718105BDA000E15A2 /* RedTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedTheme.h; sourceTree = "<group>"; };
+		5DD0D96818105BDA000E15A2 /* RedTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedTheme.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				5DD0D955180EFEBE000E15A2 /* DefaultTheme.m */,
 				5DD0D957180F059E000E15A2 /* DarkTheme.h */,
 				5DD0D958180F059E000E15A2 /* DarkTheme.m */,
+				5DD0D96718105BDA000E15A2 /* RedTheme.h */,
+				5DD0D96818105BDA000E15A2 /* RedTheme.m */,
 			);
 			name = Themes;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				5DD0D951180EFC71000E15A2 /* Theme.m in Sources */,
 				5DD0D956180EFEBE000E15A2 /* DefaultTheme.m in Sources */,
 				5DD0D966180FEEBA000E15A2 /* InfoViewController.m in Sources */,
+				5DD0D96918105BDA000E15A2 /* RedTheme.m in Sources */,
 				5DD0D95C180F082E000E15A2 /* ChangeThemeViewController.m in Sources */,
 				5DD0D959180F059E000E15A2 /* DarkTheme.m in Sources */,
 				5DD0D963180FBD12000E15A2 /* ThemedTableViewController.m in Sources */,

@@ -25,6 +25,9 @@ static Theme *CurrentTheme;
             themeName = @"DefaultTheme";
         }
         
+        //
+        // Instantiate the class named themeName
+        //
         CurrentTheme = [[NSClassFromString(themeName) alloc] init];
     }
     return CurrentTheme;
@@ -57,6 +60,10 @@ static Theme *CurrentTheme;
     [[UIBarButtonItem appearance] setTitleTextAttributes:@{ NSFontAttributeName: self.mainFont } forState:UIControlStateNormal];
 }
 
+/**
+ Always call this function instead of [UIImage imageNamed], since then other themes may supply
+ their own images if needed.
+ */
 - (UIImage *)imageNamed:(NSString *)imageName
 {
     return [UIImage imageNamed:imageName];

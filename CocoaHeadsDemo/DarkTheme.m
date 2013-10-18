@@ -24,6 +24,9 @@
     return self;
 }
 
+/**
+ Overridden in this theme since the images we use in this theme have the "-dark"-suffix
+ */
 - (UIImage *)imageNamed:(NSString *)imageName
 {
     return [UIImage imageNamed:[NSString stringWithFormat:@"%@-dark", imageName]];
